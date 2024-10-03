@@ -10,7 +10,7 @@ int main() {
 
     while (num != 0) {
         if(num & 1){
-            count++;
+            count=count+1;
         }
         num = num >> 1;
     }
